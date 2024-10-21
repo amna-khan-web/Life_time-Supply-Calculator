@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeTime Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <h1>Lifetime Supply Calculator!</h1>
+    <div class="box">
+        <label>Your Favourite Snacks:</label>
+        <br>
+        <input type="text" id="snacks">
+        <br><br>
+        <label>Your Currrent Age:</label>
+        <br>
+        <input type="number" id="age">
+        <br><br>
+        <label>Expected Maximum Age:</label>
+        <br>
+        <input type="number" id="max_age">
+        <br><br>
+        <label>How can you eat per/day:</label>
+        <br>
+        <input type="number" id="times">
+        <br><br>
+        <button onclick="supplyCalculator()">Calculate it !</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

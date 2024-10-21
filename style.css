@@ -1,0 +1,58 @@
+body{
+    display: grid;
+    margin: 0;
+    place-items: center;
+    background-image: url("assest/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    margin-top: 30px;
+    color: rgb(7, 2, 54);
+    text-decoration-line: underline;
+}
+.box{
+    border: 5px solid rgb(7, 2, 54);;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    width: 250px;
+    
+}
+.box input{
+    padding: 4px 10px;
+    border: 1px solid rgb(85, 161, 231);
+    margin-top: 6px;
+}
+.box button{
+    border: none;
+    background-color: rgb(3, 42, 65);
+    padding: 9px 25px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+}
+.box button:hover{
+    background-color: rgb(3, 110, 124);
+    color: rgb(1, 1, 36);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#result{
+    color: rgb(241, 229, 236);
+    margin-top: 32px;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
